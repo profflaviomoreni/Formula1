@@ -133,4 +133,163 @@
       <Name>Formula1</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Australia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Belgium.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Brazil.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bullet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bullet%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bullet%403x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Calendar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Calendar_Black.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Canada.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\CarlosSainz.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\CurvedMask.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\DanielRicciardo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Denmark.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\DriversHeader.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\EstebanOcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\F1Backdrop.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\F1Footer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\F1Logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FelipeMassa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Finland.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\France.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Germany.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Icon-60%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Icon-60%403x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Icon-76.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Icon-76%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Icon-Small-40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Icon-Small-40%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Icon-Small-40%403x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Icon-Small.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Icon-Small%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Icon-Small%403x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Italy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\KimiRaikkonen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\LewisHamilton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\MaxVerstappen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Medal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Medal_Black.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\MelbTrack.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Mexico.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Netherlands.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\RaceBackground.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\RaceBackground2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\RaceBackground3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\RussianFederation.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\SebastianVettel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\SergioPerez.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Spain.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Sweden.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Trophy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Trophy_Black.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\UnitedKingdom.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\ValtteriBottas.png" />
+  </ItemGroup>
 </Project>
