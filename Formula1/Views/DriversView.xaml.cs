@@ -12,15 +12,8 @@ namespace Formula1.Views
         {
             InitializeComponent();
             driverRepository = new DriverRepository();
-            DriversList.ItemsSource = driverRepository.FindAll();
+            DriversCollection.ItemsSource = driverRepository.FindAll();
         }
 
-
-
-        private void DriversList_ItemTapped(object sender, ItemTappedEventArgs e)
-        {
-            DisplayAlert("Teste", "Item Selecionado", "OK");
-
-        }
     }
 }
