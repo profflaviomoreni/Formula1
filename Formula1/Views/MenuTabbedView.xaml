@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            x:Class="Formula1.Views.MenuTabbedView"
+            xmlns:view="clr-namespace:Formula1.Views"
+            xmlns:vm="clr-namespace:Formula1.ViewModel"
+            BarBackgroundColor="{StaticResource PrimaryThemeColor}"
+            BarTextColor="White">
+
+    <NavigationPage Title="Drivers"
+            BarBackgroundColor = "{StaticResource PrimaryThemeColor}"
+            BarTextColor = "White" Icon="Trophy">
+        <x:Arguments>
+            <view:DriversView>
+                <x:Arguments>
+                    <vm:DriversViewModel/>
+                </x:Arguments>
+            </view:DriversView>
+        </x:Arguments>
+    </NavigationPage>
+
+    <NavigationPage Title="Races"
+            BarBackgroundColor = "{StaticResource PrimaryThemeColor}"
+            BarTextColor = "White" Icon="Calendar">
+        <x:Arguments>
+            <view:RacesView>
+                <x:Arguments>
+                    <vm:RacesViewModel/>
+                </x:Arguments>
+            </view:RacesView>
+        </x:Arguments>
+    </NavigationPage>
+</TabbedPage>
