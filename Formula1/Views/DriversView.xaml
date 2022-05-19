@@ -7,7 +7,11 @@
              x:Class="Formula1.Views.DriversView">
     <ContentPage.Content>
         <CollectionView 
-        x:Name="DriversCollection">
+            ItemsSource="{Binding Drivers}"
+            SelectionMode="Single"
+            SelectedItem="{Binding SelectedDriver}"
+            SelectionChangedCommand="{Binding DriverSelectedCommand}"
+            SelectionChangedCommandParameter="{Binding SelectedDriver}">
             <CollectionView.Header>
                 <Grid>
                     <Grid.RowDefinitions>

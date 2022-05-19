@@ -1,4 +1,5 @@
 ﻿using Formula1.Data;
+using Formula1.ViewModel;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -7,12 +8,10 @@ namespace Formula1.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class DriversView : ContentPage
     {
-        private DriverRepository driverRepository;
-        public DriversView()
+        public DriversView(DriversViewModel driversViewModel)
         {
             InitializeComponent();
-            driverRepository = new DriverRepository();
-            DriversCollection.ItemsSource = driverRepository.FindAll();
+            BindingContext = driversViewModel;
         }
 
     }
