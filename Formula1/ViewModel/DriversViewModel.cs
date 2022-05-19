@@ -1,6 +1,9 @@
 ﻿using Formula1.Data;
 using Formula1.Models;
+using Formula1.Views;
 using System.Collections.ObjectModel;
+using System.Windows.Input;
+using Xamarin.Forms;
 
 namespace Formula1.ViewModel
 {
@@ -22,10 +25,17 @@ namespace Formula1.ViewModel
             set { SetProperty(ref selectedDriver, value); }
         }
 
-
-
-
         private DriverRepository driverRepository;
+        #endregion
+
+        #region commands
+        public ICommand DriverSelectedCommand => new Command<Driver>(async (Driver driver) =>
+        {
+            var vm = new DriverDetailsViewModel(driver);
+            await App.Current.MainPage.Navigation.PushAsync(new DriveDetailsView(vm));
+        });
+
+
         #endregion
 
 
