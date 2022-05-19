@@ -1,4 +1,5 @@
-﻿using Formula1.Views;
+﻿using Formula1.ViewModel;
+using Formula1.Views;
 using Xamarin.Forms;
 
 namespace Formula1
@@ -17,7 +18,12 @@ namespace Formula1
                 BarTextColor = Color.White
             };
             */
-            MainPage = new MenuTabbedView();
+
+            //Tabbed Page
+            //MainPage = new MenuTabbedView();
+
+            //MasterDetails
+            MainPage = new MenuMasterView();
         }
 
         protected override void OnStart()

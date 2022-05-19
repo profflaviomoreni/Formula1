@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<FlyoutPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Formula1.Views.MenuMasterView"
+             xmlns:view="clr-namespace:Formula1.Views"
+            xmlns:vm="clr-namespace:Formula1.ViewModel">
+    <FlyoutPage.Flyout>
+        <view:MenuView>
+            <x:Arguments>
+                <vm:MenuViewModel></vm:MenuViewModel>
+            </x:Arguments>
+        </view:MenuView>
+    </FlyoutPage.Flyout>
+    <FlyoutPage.Detail>
+        <NavigationPage>
+        <x:Arguments>
+                <view:RacesView>
+                    <x:Arguments>
+                        <vm:RacesViewModel></vm:RacesViewModel>
+                    </x:Arguments>
+                </view:RacesView>
+            </x:Arguments>
+    </NavigationPage>
+  </FlyoutPage.Detail>
+</FlyoutPage>
