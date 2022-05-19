@@ -1,6 +1,5 @@
-﻿using System;
+﻿using Formula1.Views;
 using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
 
 namespace Formula1
 {
@@ -10,7 +9,7 @@ namespace Formula1
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new DriversView();
         }
 
         protected override void OnStart()
