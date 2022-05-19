@@ -17,7 +17,9 @@ namespace Formula1
                 BarTextColor = Color.White
             };
             */
-            MainPage = new MenuTabbedView();
+            //MainPage = new MenuTabbedView();
+
+            MainPage = new TabbedView();
         }
 
         protected override void OnStart()
